@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo> 
+    <pelicula genero="accion" duracion="150">
+        <titulo>Gladiator</titulo>
+        <director>Ridley Scott</director>
+        <reparto>
+            <actor>Russel Croweee (para comprobar q se sube bien)</actor>
+            <actor>Joaquin Phoenix</actor>
+            <actor>Connie Nietsen</actor>
+        </reparto>
+    </pelicula>
+    <fecha_estreno> 
+        <dia>1</dia>
+        <mes>1</mes>
+        <anio>2000</anio>
+    </fecha_estreno>
+   <pelicula genero="ciencia ficcion" duracion="150">
+        <titulo>La Llegada</titulo>
+        <director>Ridley Scott</director>
+        <reparto>
+            <actor>Russel Crowe</actor>
+            <actor>Joaquin Phoenix</actor>
+            <actor>Connie Nietsen</actor>
+        </reparto>
+    </pelicula>
+    <fecha_estreno> 
+        <dia>1</dia>
+        <mes>1</mes>
+        <anio>2000</anio>
+    </fecha_estreno>
+</catalogo>
+

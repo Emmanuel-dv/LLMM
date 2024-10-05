@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<perro>
+    <raza>
+     <nombre>Perro de aguas español</nombre>
+     <abreviatura>PAE</abreviatura>
+     <origen>Andalucía</origen>
+        <tamanio>
+          <macho>44 a 50 cm</macho>
+          <hembra>40 a 46 cm</hembra>
+        </tamanio>
+        <peso>
+          <macho>19 a 22 kg</macho>
+          <hembra>14 a 19 kg</hembra>
+        </peso>
+     <pelaje>Duro y rizado</pelaje>
+     <esperanza_vida>10 a 14 años</esperanza_vida>
+     <temperamento>Amigable</temperamento>
+    </raza>
+</perro>
+    <raza>
+     <nombre>Bulldog</nombre>
+     <abreviatura>BG</abreviatura>
+     <origen>Inglaterra</origen>
+        <tamanio>
+          <macho>30 a 61 cm</macho>
+          <hembra>25 a 45 cm</hembra>
+        </tamanio>
+        <peso>
+          <macho>23 a 25 kg</macho>
+          <hembra>18 a 23 kg</hembra>
+        </peso>
+     <pelaje>Duro y rizado</pelaje>
+     <esperanza_vida>8 a 10</esperanza_vida>
+     <temperamento>Amigable</temperamento>
+    </raza>
+    <raza>
+     <nombre>Pug</nombre>
+     <abreviatura>No tiene</abreviatura>
+     <origen>China</origen>
+        <tamanio>
+          <macho>30 a 36 cm</macho>
+          <hembra>25 a 30 cm</hembra>
+        </tamanio>
+        <peso>
+          <macho>4 a 6 kg</macho>
+          <hembra>3 a 5 kg</hembra>
+        </peso>
+     <pelaje>Duro y rizado</pelaje>
+     <esperanza_vida>12 a 15</esperanza_vida>
+     <temperamento>Amigable</temperamento>
+    </raza>
