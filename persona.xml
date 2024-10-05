@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agenda>
+  <persona>
+   <nombre>Ezequiel</nombre>
+   <fecha_nacimiento>
+      <dia>16</dia>
+      <mes>03</mes>
+      <anio>2001</anio>
+    </fecha_nacimiento>
+   <ciudad>Madrid</ciudad>
+  </persona>
+  <persona>
+   <nombre>Ulises</nombre>
+   <fecha_nacimiento>
+      <dia>15</dia>
+      <mes>11</mes>
+      <anio>2009</anio>
+    </fecha_nacimiento>
+   <ciudad>Madrid</ciudad>
+  </persona>
+  <persona>
+   <nombre>Claudia</nombre>
+   <fecha_nacimiento>
+      <dia>20</dia>
+      <mes>05</mes>
+      <anio>2005</anio>
+   <ciudad>Malaga</ciudad>
+   </fecha_nacimiento>
+  </persona>
+</agenda>
