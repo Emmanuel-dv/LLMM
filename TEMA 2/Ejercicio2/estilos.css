@@ -1,0 +1,26 @@
+body {
+    background-image: url('./assets/fondo.gif'); 
+    font-family : Verdana; 
+    color : rgb(0, 0, 225); 
+}
+
+p {
+    font-size : 12px; 
+    font-family : Verdana; 
+    font-weight : normal; 
+  
+   }
+
+   h1 {
+    font-size : 36px; 
+    font-weight : bold; 
+    font-family : Georgia; 
+    color : rgb(216, 4, 4); 
+
+   }
+
+   h2 {
+    color: blue; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
