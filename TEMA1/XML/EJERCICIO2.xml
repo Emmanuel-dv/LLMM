@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+
+    <libro>
+      <titulo_libro>El Guardian Entre El Centeno</titulo_libro>
+      <autor>J. D. Salinger</autor>
+      <anio_publicacion>1951</anio_publicacion>
+      <genero>novela</genero>
+      <idioma>Ingles</idioma>
+      <sinopsis>Trata sobre un adolescente que ha sido expulsado de su colegio y se centra en la narracion de lo lejano, lo extremo, la vida y las personas</sinopsis>
+
+    </libro>
+    
+     <libro>
+      <titulo_libro>La vuelta al mundo en 80 dias </titulo_libro>
+      <autor>Julio Verne</autor>
+      <anio_publicacion>1872</anio_publicacion>
+      <genero>Ciencia Ficcion</genero>
+      <idioma>Frances</idioma>
+      <sinopsis>Phileas Fogg, un caballero inglés que ha hecho una apuesta con sus compañeros de club asegurando que es capaz de dar la vuelta al mundo en 80 días.</sinopsis>
+
+    </libro>
+    
+     <libro>
+      <titulo_libro>El Principito </titulo_libro>
+      <autor>Antoine de Saint-Exupéry</autor>
+      <anio_publicacion>1943</anio_publicacion>
+      <genero>Literatura infantil</genero>
+      <idioma>Frances</idioma>
+      <sinopsis>Relata la historia ficticia de un aviador y un niño que proviene de otro planeta</sinopsis>
+
+    </libro>
+
+</biblioteca>
+

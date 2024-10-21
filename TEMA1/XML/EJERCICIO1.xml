@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paises_europa>
+    <pais>España</pais>
+         <poblacion>48.797.634</poblacion>
+         <capital>Madrid</capital>
+         <superficie>505.99k</superficie>
+    </pais>
+     <pais>Portugal</pais>
+         <poblacion>10.300.000</poblacion>
+         <capital>Lisboa</capital>
+         <superficie>92.23k</superficie>
+    </pais>
+     <pais>Francia</pais>
+         <poblacion>123.858.429</poblacion>
+         <capital>Madrid</capital>
+         <superficie>643.80k</superficie>
+    </pais>
+</paises_europa
+
+
+
+
