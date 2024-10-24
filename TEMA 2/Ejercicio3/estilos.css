@@ -1,0 +1,67 @@
+body{
+
+    background-color: #DFF5FD;
+    font-family:Verdana ;
+    font-size: 12px;
+    font-weight : normal; 
+    margin: 20px;
+    color: black;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(9, 9, 223);
+    background-color: white;
+    border-top: solid 2px darkblue;
+    border-bottom: solid 2px darkblue;
+    margin: 20px auto 20px auto;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.TimesRojo{
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(192, 5, 5, 0.979);
+}
+
+.TimesVerde{
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(2, 145, 2);
+}
+
+#datos_personales{
+
+    background-color: rgb(240, 180, 192);
+    font-size: 14px;
+    color: #74030a;
+    font-family: arial, Times, sans-serif;
+    border: solid 3px #74030a;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#formacion_academica{
+    background-color: rgb(140, 205, 243);
+    font-size: 14px;
+    color: darkblue;
+    font-family: Arial, Times, sans-serif;
+    border: solid 3px darkblue;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+
+}
