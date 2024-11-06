@@ -1,0 +1,38 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+}
+
+caption{
+    font-family: Arial,;
+    font-size: 36px;
+    text-align: center;
+    color: green;
+}
+
+.tabla1{
+    margin: auto;
+    text-align: center;
+    border-collapse:collapse;
+    border: 1px solid;
+}
+
+td, th{
+    padding: 10px;
+    
+}
+.encabezado{
+    background-color: lightyellow;
+    color: rgb(185, 185, 22);
+    border-bottom: 1px solid;
+}
+
+.azulclaro{
+    background-color: rgb(234, 247, 252);
+}
+.azuloscuro{
+    background-color: rgb(209, 237, 248);
+}
+
