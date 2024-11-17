@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es el septimo ejercicio de la Unidad 2"/>
+    <meta name="Author" content="Emmanuel Mateo Zacarias Benitez"/>
+    <meta name="Keywords" content="Formularios con CSS, practica 8"/>
+    <link rel="stylesheet" href="/estilos2.css">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <h1>Pedido de Pizza</h1>
+            
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="direccion">Direccion:</label>
+                    <input type="text" id="direccion" name="direccion" size="40">
+                </div>
+                <div class="cosas">
+                    <label for="ingredientes">Ingredientes:</label>
+                    <input type="radio" id="ingredientes" name="ingredientes">queso
+                    <input type="radio" id="ingredientes" name="ingredientes">cebolla
+                    <input type="radio" id="ingredientes" name="ingredientes">pimiento
+               
+                    <label for="tamanio">Tamaño:</label>
+                    <input type="checkbox" id="tamanio" name="tamanio">Pequeña
+                    <input type="checkbox" id="tamanio" name="tamanio">Mediana
+                    <input type="checkbox" id="tamanio" name="tamanio">Grande
+              
+              
+                    <label for="tamanio">Forma de pago</label>
+                    <select>
+                        <option>visa</option>
+                        <option>mastercard</option>
+                        <option>maestro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comentario2">Comentario:</label>
+                    <textarea cols="50" rows="6" id="comentario2" name="comentario2"></textarea>
+                </div>
+                <div>
+                    <input type="submit"><input type="reset" value="Borrar">
+                </div>
+        </fieldset>
+    </form>
+</body>
+</html>

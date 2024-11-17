@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+    font-weight: normal;
+    background-color: lightgray;
+    margin: auto;
+}
+
+form{
+    background-color: #ffcc99;
+}
+h1{
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+label{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: white;
+    margin: auto;
+    padding: 5px;
+}
+.cosas{
+    display: inline;
+
+}
