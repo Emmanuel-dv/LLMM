@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es el septimo ejercicio de la Unidad 2"/>
+    <meta name="Author" content="Emmanuel Mateo Zacarias Benitez"/>
+    <meta name="Keywords" content="Introduccion a formularios, practica 7"/>
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <h1>Ejercicio 1</h1>
+
+        <fieldset>
+            <legend> Detalles Personales</legend>
+                <form>
+                    <div><label for="nombre">Nombre: <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre" size="100"></label></div>
+                    <div><label for="edad">Edad: <input type="number" id="edad" name="edad"></label></div>
+                </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Información del comentario</legend>
+                <form>
+                 <div>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Pon tu usuario" size="60">
+                </div>
+                 <div>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" size="60">
+                </div>
+                 <div>
+                    <label for="comentario">Comentario:</label>
+                    <input type="text" id="comentario" name="comentario" placeholder="Pon tu comentario" size="100">
+                </div>
+                 <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Pon tu email" maxlength="70" size="100">
+                </div>
+                 <div>
+                    <label for="fecha_nacimiento">Fecha nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+                </div>
+                 <div>
+                    <label for="fichero">Introduce un fichero:</label>
+                    <input type="file" id="fichero" name="fichero">
+                    </div>
+                </form>
+        </fieldset>
+
+    <h1>Ejercicio 2</h1>
+        <form>
+            <div>
+                <label for="nombre2">Nombre:</label>
+                <input type="text" id="nombre2" name="nombre2">
+            </div>
+            <div>
+                <label for="comentario2">Comentario:</label>
+                <textarea cols="35" rows="10" id="comentario2" name="comentario2"></textarea>
+            </div>
+            <div>
+                <label for="color">Seleccione el color de su avatar</label>
+                <input type="color" id="color" name="color">
+            </div>
+            <div>
+                <input type="submit" value="Enviar comentario">
+            </div>
+        </form>
+    <h1>Ejercicio 3</h1>
+        <form>
+            <div>
+                <label for="comida">Elige tu comida favorita:</label>
+                <select>
+                    <option>Kebab</option>
+                    <option>Ensalada</option>
+                    <option>Hamburguesa</option>
+                    <option>Pizza</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Entrar" ><input type="reset" value="Borrar" >
+            </div>
+        </form>
+    <h1>Ejercicio 4</h1>
+        <form>
+            <div>
+                <label for="comida2">Elige tu comida favorita:</label>
+                <input type="checkbox" id="comida2" name="comida2">Kebab
+                <input type="checkbox" id="comida2" name="comida2">Ensalada 
+                <input type="checkbox" id="comida2" name="comida2">Hamburguesa 
+                <input type="checkbox" id="comida2" name="comida2">Pizza
+            </div>
+            <div>
+                <label for="metodo">Metodo paga:</label> 
+                <input type="radio" id="metodo" name="metodo">Vale
+                <input type="radio" id="metodo" name="metodo">Tarjeta 
+                <input type="radio" id="metodo" name="metodo">Cash 
+            </div>
+            <div>
+                <input type="submit"><input type="reset" value="Borrar">
+            </div>
+        </form>
+
+
+
+    
+</body>
+</html>
