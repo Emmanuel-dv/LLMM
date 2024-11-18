@@ -6,48 +6,49 @@
     <meta name="description" content="Este es el septimo ejercicio de la Unidad 2"/>
     <meta name="Author" content="Emmanuel Mateo Zacarias Benitez"/>
     <meta name="Keywords" content="Formularios con CSS, practica 8"/>
-    <link rel="stylesheet" href="/estilos2.css">
+    <link rel="stylesheet" href="estilos2.css">
     <title>Ejercicio 8</title>
 </head>
 <body>
 
     <form>
         <fieldset>
-            <h1>Pedido de Pizza</h1>
+            <h1>- Pedido de Pizza -</h1>
             
-                <div>
-                    <label for="nombre">Nombre:</label>
+                <div class="campos">
+                    <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre">
                 </div>
-                <div>
-                    <label for="direccion">Direccion:</label>
-                    <input type="text" id="direccion" name="direccion" size="40">
+                <div class="campos">
+                    <label for="direccion">Direccion</label>
+                    <input type="text" id="direccion" name="direccion">
                 </div>
-                <div class="cosas">
-                    <label for="ingredientes">Ingredientes:</label>
-                    <input type="radio" id="ingredientes" name="ingredientes">queso
-                    <input type="radio" id="ingredientes" name="ingredientes">cebolla
-                    <input type="radio" id="ingredientes" name="ingredientes">pimiento
-               
-                    <label for="tamanio">Tamaño:</label>
-                    <input type="checkbox" id="tamanio" name="tamanio">Pequeña
-                    <input type="checkbox" id="tamanio" name="tamanio">Mediana
-                    <input type="checkbox" id="tamanio" name="tamanio">Grande
-              
-              
-                    <label for="tamanio">Forma de pago</label>
-                    <select>
-                        <option>visa</option>
-                        <option>mastercard</option>
-                        <option>maestro</option>
-                    </select>
+
+                <div id="campos2">
+                    <label for="ingredientes">Ingredientes</label>
+                        <input type="checkbox" id="ingredientes" name="ingredientes" value="Queso">Queso
+                        <input type="checkbox" id="ingredientes" name="ingredientes" value="Pimiento">Pimiento
+                        <input type="checkbox" id="ingredientes" name="ingredientes" value="Cebolla">Cebolla
+                   
+                        <label for="tamanio">Tamaño</label>
+                        <input type="checkbox" id="tamanio" name="tamanio">Pequeña
+                        <input type="checkbox" id="tamanio" name="tamanio" >Mediana
+                        <input type="checkbox" id="tamanio" name="tamanio" >Grande
+                
+                        <label for="pago">Forma de pago</label>
+                        <select>
+                            <option>Visa</option>
+                            <option>Mastercard</option>
+                            <option>Maestro</option>
+                        </select>
+                </div>
+                <div class="campos3">
+                    <label for="instrucciones">Instrucciones especiales</label>
+                    <textarea cols="50" rows="6"></textarea>
                 </div>
                 <div>
-                    <label for="comentario2">Comentario:</label>
-                    <textarea cols="50" rows="6" id="comentario2" name="comentario2"></textarea>
-                </div>
-                <div>
-                    <input type="submit"><input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar!">
+                    <input type="reset" value="Borrar!">
                 </div>
         </fieldset>
     </form>
