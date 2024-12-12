@@ -1,0 +1,91 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    grid-template-areas: "header header header header"
+                          "nav nav nav nav"
+                          "al1 al2 al3 aside"
+                          "al4 al5  hola  aside"
+                          "footer footer footer footer" ;
+    
+}
+
+header{
+    grid-area: header;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    grid-area: nav;
+    background-color:lightblue;
+}
+
+nav ul li{
+    display: inline;
+    margin: 15px;
+}
+
+
+
+
+article{
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+article.al1{
+    grid-area: al1;
+    background-color: lightgray;
+    border: solid black 1px;
+    
+}
+
+article.al2{
+    grid-area: al2;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+article.al3{
+    grid-area: al3;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+article.al4{
+    grid-area: al4;
+    background-color: lightgray;
+    border: solid black 1px;
+
+}
+
+article.al5{
+    grid-area: al5;
+    background-color: lightgray;
+    border: solid black 1px;
+    
+}
+
+
+
+
+
+
+aside{
+    grid-area: aside;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    
+}
+
+footer{
+    grid-area: footer;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
