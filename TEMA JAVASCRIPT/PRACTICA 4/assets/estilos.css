@@ -1,0 +1,52 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #ccc;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.fondoNegro{
+    background-color: black;
+}
+
+.fondoRojo {
+    background-color: red;
+}
+
+.fondoBlanco {
+    background-color: white;
+}
+
+.fondoGris {
+    background-color: #ccc;
+}
+
+.letraNegra{
+    color: black;
+}
+
+.letraBlanca {
+    color: white;
+}
+
+.letraRoja {
+    color: red;
+}
