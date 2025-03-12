@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+
+.buscador{
+    text-align: center;
+}
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}

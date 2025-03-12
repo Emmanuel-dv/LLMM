@@ -1,0 +1,40 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.buscador {
+    border: 1px dotted black;
+    padding: 20px;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+td, th {
+    padding: 20px;
+    border: 1px solid;
+}
+
+.encabezado {
+    font-weight: bold;
+}
+
+.fondoRojo{
+    background-color: red;
+}
+
+.fondoAzul{
+    background-color: aqua;
+}
+
+.neutro{
+    background-color: black;
+}

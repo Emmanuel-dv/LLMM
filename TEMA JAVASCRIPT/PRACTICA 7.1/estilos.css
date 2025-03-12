@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.buscador {
+    border: 1px dotted black;
+    padding: 20px;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+}
